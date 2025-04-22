@@ -1,3 +1,3 @@
 function mensagem(){
-    alert("Acompanhe meus projetos")
+    alert("Seja Bem-Vindo(a) ao meu site do Trote Solidário")
 }
