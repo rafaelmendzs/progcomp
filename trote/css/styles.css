@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /*espaçamento interno da página*/
+    padding: 0; /*espaçamento interno da página*/
+    background-color: rgb(4, 53, 102);
+    text-align: center;
+}
+
+header {
+    background-color: #e2cd13;
+    color: rgb(0, 0, 0);
+    padding: 15px 0px; /* 1ads5px (espaçamento interno acima e abaixo) e 0px (espaçamento interno direita e esquerda)*/
+    font-size: 24px;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 10px; /*espaçamento interno do menu*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links-menu {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+nav a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.logo_trote {
+    margin-right: 50px;
+    border-radius: 30%;
+}
+
+.container {
+    background-color: #378be4;
+    width: 80%;
+    border-radius: 10%;
+    margin: 20px auto;
+    padding: 20px;
+    color:#082953;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    color:#e2cd13;
+}
+
+table tr td {
+    padding:20px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.laranja {
+    background-color: orange;
+    color:black;
+    font-weight: bold;
+}
+
+.preto {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+
+.roxa {
+    background-color: purple;
+    color:white;
+    font-weight: bold;
+}
+
+.verde {
+    background-color: green;
+    color:white;
+    font-weight: bold;
+}
+
+.vermelho {
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+
+th{
+    background-color: #082953;
+    color:#e2cd13;
+    text-align: center;
+}
+
+td{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr{
+    background-color: #7dafe6;
+}
+
+#gincana_tabela {
+    border-color: rgb(194, 194, 29);
+    width: 11in;
+    height: 7in;
+}
+
+.input-estilizado {
+    background-color: #3465a5;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+label {
+    background-color: #082953;
+    color:#e2cd13;
+}
+
+#botao_calculadora {
+    background-color: #082953;
+    color:#e2cd13;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 40%;
+}
+
+.campos{
+    margin-top: 40px;
+}
+
+legend{
+    color:#e2cd13;
+    background-color: #083f9e;
+}
+
+nav a:hover {
+    background-color: #3399ff;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a.active {
+    background-color: #e2cd13; 
+    color: #000; 
+    font-weight: bold;
+}
